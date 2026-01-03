@@ -39,13 +39,15 @@ class BaseSmsProvider(metaclass=abc.ABCMeta):
     @_validation
     def set_content(self, content):
         """Set content and make the method chainable"""
-        self.content = content
-        return self
+        #
+        # @TODO: Implement it
+        #
 
     @_validation
     def set_recipient(self, phone_number, country_code="PL"):
         """Set recipient attribute - remember to add a country code like in the `old.py` file.
         Make the method chainable"""
-        self.recipient = self.COUNTRY_CODES[country_code] + str(phone_number)
-        return self
+        #
+        # @TODO: Implement it
+        #
 
