@@ -1,7 +1,7 @@
 [project]
 name = "sms_provider_refactor"
 version = "1.0.0"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "pytest>=9.0",
     "pytest-timeout>=2.4",
